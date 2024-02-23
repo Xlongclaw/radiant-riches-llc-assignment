@@ -1,0 +1,17 @@
+@use "@sass/colors";
+
+.strip {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid colors.$white-fade-2;
+  border-bottom: 1px solid colors.$white-fade-2;
+  width: 100%;
+  margin-top: 15px;
+  align-items: center;
+  height: 45px;
+}
+.leftContainer {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}

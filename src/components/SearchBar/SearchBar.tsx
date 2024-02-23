@@ -3,7 +3,7 @@ import styles from "./SearchBar.module.scss";
 const SearchBar = () => {
   return (
     <div className={styles.searchBar}>
-      <img src={searchIcon} alt="" />
+      <img src={`./images/search.png`} alt="" />
     </div>
   );
 };

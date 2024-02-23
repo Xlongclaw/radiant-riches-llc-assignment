@@ -1,0 +1,13 @@
+@use "@sass/colors";
+
+.btn {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  gap: 2px;
+  color: colors.$detail-font-color;
+  &:hover {
+    font-weight: 500;
+    cursor: pointer;
+  }
+}
