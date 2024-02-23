@@ -6,6 +6,7 @@ import MainContainer from "./MainContainer/MainContainer";
 import ResultDetailsStrip from "./ResultDetailsStrip/ResultDetailsStrip";
 import DetailContainer from "./DetailContainer/DetailContainer";
 import SortMenu from "./SortMenu/SortMenu";
+import OptionsContainer from "./OptionsContainer/OptionsContainer";
 
 export {
   NavigationBar,
@@ -16,4 +17,5 @@ export {
   ResultDetailsStrip,
   DetailContainer,
   SortMenu,
+  OptionsContainer,
 };

@@ -1,0 +1,18 @@
+@use "@sass/colors";
+.container {
+  width: 100%;
+  padding: 13px 0 13px 0;
+  display: flex;
+  gap: 30px;
+}
+.option {
+  width: 105px;
+  height: 36px;
+  border-radius: 12px;
+  font-size: 14px;
+  color: colors.$detail-font-color;
+  background-color: colors.$white;
+  display: flex;
+  align-items: center;
+  padding-left: 16px;
+}
