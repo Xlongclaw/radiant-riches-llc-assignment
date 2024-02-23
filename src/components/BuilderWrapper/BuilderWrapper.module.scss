@@ -1,0 +1,18 @@
+@use "@sass/colors";
+
+.wrapperCompact {
+}
+
+.wrapper {
+  background-color: colors.$white;
+  display: flex;
+  border-radius: 15px;
+}
+
+.textContainer {
+  margin: 40px;
+  flex: 1;
+}
+
+.rightContainer {
+}

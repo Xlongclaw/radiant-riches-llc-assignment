@@ -1,5 +1,10 @@
 import styles from "./ManiContainer.module.scss";
-import { HeroText, OptionsContainer, ResultDetailsStrip } from "@components";
+import {
+  BuilderContainer,
+  HeroText,
+  OptionsContainer,
+  ResultDetailsStrip,
+} from "@components";
 
 const MainContainer = () => {
   return (
@@ -7,6 +12,7 @@ const MainContainer = () => {
       <HeroText />
       <ResultDetailsStrip />
       <OptionsContainer />
+      <BuilderContainer />
     </div>
   );
 };

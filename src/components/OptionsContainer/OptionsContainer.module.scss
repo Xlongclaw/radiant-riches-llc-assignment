@@ -15,4 +15,9 @@
   display: flex;
   align-items: center;
   padding-left: 16px;
+  border: 1px solid colors.$white;
+  &:hover {
+    border: 1px solid colors.$white-fade-2;
+    cursor: pointer;
+  }
 }

@@ -7,6 +7,13 @@ import ResultDetailsStrip from "./ResultDetailsStrip/ResultDetailsStrip";
 import DetailContainer from "./DetailContainer/DetailContainer";
 import SortMenu from "./SortMenu/SortMenu";
 import OptionsContainer from "./OptionsContainer/OptionsContainer";
+import BuilderContainer from "./BuilderContainer/BuilderContainer";
+import BuilderWrapper from "./BuilderWrapper/BuilderWrapper";
+import RatingContainer from "./RatingContainer/RatingContainer";
+import Button from "./Button/Button";
+import BuilderDescription from "./BuilderDescription/BuilderDescription";
+import MainHighLight from "./MainHighlight/MainHighLight";
+import ImageContainer from "./ImageContainer/ImageContainer";
 
 export {
   NavigationBar,
@@ -18,4 +25,11 @@ export {
   DetailContainer,
   SortMenu,
   OptionsContainer,
+  BuilderContainer,
+  BuilderWrapper,
+  RatingContainer,
+  Button,
+  BuilderDescription,
+  MainHighLight,
+  ImageContainer,
 };
