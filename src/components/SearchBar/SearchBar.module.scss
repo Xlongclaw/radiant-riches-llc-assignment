@@ -1,0 +1,11 @@
+@use "@sass/colors";
+
+.searchBar {
+  background-color: colors.$white;
+  height: 44px;
+  width: 307px;
+  display: flex;
+  border-radius: 10px;
+  align-items: center;
+  padding: 0px 0px 0px 11px;
+}

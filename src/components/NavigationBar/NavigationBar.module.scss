@@ -1,0 +1,9 @@
+@use "@sass/colors";
+
+.nav {
+  background-color: colors.$ascent-color;
+  height: 76px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

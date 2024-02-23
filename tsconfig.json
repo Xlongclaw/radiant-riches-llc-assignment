@@ -21,6 +21,7 @@
       "@/*": ["./src/*"],
       "@components": ["./src/components/index"],
       "@constants": ["./src/constants/index"],
+      "@sass/*": ["./src/sass/*"],
       "@types": ["./src/types/index"]
     }
   },
