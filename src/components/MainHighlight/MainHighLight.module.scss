@@ -1,2 +1,15 @@
+@use "@sass/colors";
+
 .highlight {
+}
+.heading {
+  font-weight: 700;
+  color: colors.$ascent-color;
+  margin: 0;
+}
+.description {
+  font-weight: 400;
+  color: colors.$font-color-1;
+  margin-top: 10px;
+  margin-left: 20px;
 }

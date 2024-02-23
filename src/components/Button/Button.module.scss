@@ -1,2 +1,7 @@
+@use "@sass/colors";
 .button {
+  padding: 15px 120px 15px 120px;
+  background-color: colors.$blue;
+  color: colors.$white;
+  border-radius: 10px;
 }

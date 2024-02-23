@@ -5,6 +5,7 @@ const BuilderContainer = () => {
   return (
     <div className={styles.container}>
       <BuilderWrapper type="normal" />
+      <BuilderWrapper type="normal" />
     </div>
   );
 };
