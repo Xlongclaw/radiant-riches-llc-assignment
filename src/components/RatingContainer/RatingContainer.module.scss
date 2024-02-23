@@ -1,2 +1,24 @@
+@use "@sass/colors";
+
 .container {
+  background-color: colors.$light-blue;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  padding: 18px;
+  align-items: center;
+  border-bottom-left-radius: 14px;
+  border-bottom-right-radius: 14px;
+}
+.rating {
+  font-size: 2rem;
+  font-weight: 400;
+  color: colors.$dark-blue;
+  margin: 0 0 20px 0;
+}
+
+.ratingTag {
+  margin: 0 0 10px 0;
+}
+.stars {
 }

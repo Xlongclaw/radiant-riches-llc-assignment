@@ -13,3 +13,60 @@
   margin-top: 10px;
   margin-left: 20px;
 }
+.button {
+  color: colors.$blue;
+  border: none;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  margin-left: 20px;
+  &:hover {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+}
+
+.highlightList {
+  background-color: colors.$light-orange;
+  padding: 10px 20px;
+  border-radius: 14px;
+  margin-left: 20px;
+}
+
+.listItem {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+  margin: 8px 0;
+  h4 {
+    margin: 0;
+    color: colors.$blue;
+    background: colors.$white;
+    padding: 3px 8px 3px 8px;
+    border-radius: 7px;
+  }
+  span {
+    color: colors.$font-color-1;
+    font-size: 15px;
+  }
+}
+
+.whyloveContainer {
+  margin-left: 20px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 15px;
+    color: colors.$font-color-1;
+    margin: 10px 0 10px 0;
+  }
+}
+.head {
+  font-weight: 400;
+  margin-bottom: 10px;
+}

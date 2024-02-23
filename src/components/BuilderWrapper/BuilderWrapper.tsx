@@ -19,7 +19,7 @@ const BuilderWrapper = ({ type }: { type: "compact" | "normal" }) => {
         </div>
         <div className={styles.rightContainer}>
           <RatingContainer />
-          <Button title="View" link="#" />
+          <Button title="View" />
         </div>
       </div>
     );

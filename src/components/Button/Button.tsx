@@ -1,6 +1,13 @@
 import style from "./Button.module.scss";
-const Button = ({ title, link }: { title: string; link: string }) => {
-  return <div className={style.button}>{title}</div>;
+
+const handleClick = () => {};
+
+const Button = ({ title }: { title: string }) => {
+  return (
+    <button onClick={() => handleClick()} className={style.button}>
+      {title}
+    </button>
+  );
 };
 
 export default Button;

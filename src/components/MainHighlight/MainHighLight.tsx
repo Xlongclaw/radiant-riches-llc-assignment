@@ -8,6 +8,39 @@ const MainHighLight = () => {
         premium design templates, an extensive library of widgets and apps, and
         detailed step-by-step guides.
       </h4>
+      <div className={styles.highlightList}>
+        <div className={styles.listItem}>
+          <h4>9.9</h4>
+          <span>Building Responsive</span>
+        </div>
+        <div className={styles.listItem}>
+          <h4>9.9</h4>
+          <span>Building Responsive</span>
+        </div>
+        <div className={styles.listItem}>
+          <h4>9.9</h4>
+          <span>Building Responsive</span>
+        </div>
+      </div>
+      <div className={styles.whyloveContainer}>
+        <h4 className={styles.head}>Why we love it?</h4>
+        <div>
+          <img src="./images/check-blue.png" alt="" />
+          <span>Documentation</span>
+        </div>
+        <div>
+          <img src="./images/check-blue.png" alt="" />
+          <span>Documentation</span>
+        </div>
+        <div>
+          <img src="./images/check-blue.png" alt="" />
+          <span>Documentation</span>
+        </div>
+      </div>
+      <button className={styles.button}>
+        Show more
+        <img src="./images/chevron-down-blue.png" alt="" />
+      </button>
     </div>
   );
 };
