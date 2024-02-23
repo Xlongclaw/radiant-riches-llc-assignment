@@ -1,0 +1,13 @@
+@use "@sass/colors";
+
+.navLinksContainer {
+  display: flex;
+  gap: 53px;
+}
+.navLink {
+  text-decoration: none;
+  color: colors.$white;
+  font-size: 14px;
+  font-weight: 400;
+  color: colors.$white-fade-1;
+}

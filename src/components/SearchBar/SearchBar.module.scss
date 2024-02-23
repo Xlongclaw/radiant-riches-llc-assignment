@@ -2,10 +2,11 @@
 
 .searchBar {
   background-color: colors.$white;
-  height: 44px;
-  width: 307px;
+  height: 37px;
+  width: 258px;
   display: flex;
   border-radius: 10px;
   align-items: center;
   padding: 0px 0px 0px 11px;
+  border: 1px solid colors.$white-fade-2;
 }
