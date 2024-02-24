@@ -37,3 +37,40 @@
   left: -25px;
   border: 1px solid colors.$white-fade-1;
 }
+
+.wrapperCompact {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid colors.$white-fade-1;
+  background-color: colors.$white;
+  padding: 20px;
+  border-radius: 15px;
+  align-items: center;
+  width: 33.3%;
+  h3 {
+    width: 100%;
+    color: colors.$font-color-2;
+    font-weight: 600;
+    font-size: 16px;
+    margin: 0;
+    text-align: center;
+  }
+  h4 {
+    width: 100%;
+    font-weight: 400;
+    font-size: 16px;
+    color: colors.$font-color-2;
+    margin: 10px 0;
+  }
+}
+
+.image {
+  margin: 60px;
+}
+
+.tagContainer {
+  display: flex;
+  gap: 10px;
+  padding: 10px 0 10px 0;
+  width: 100%;
+}

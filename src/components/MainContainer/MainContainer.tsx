@@ -3,6 +3,7 @@ import {
   BuilderContainer,
   HeroText,
   OptionsContainer,
+  RelatedDealsSection,
   ResultDetailsStrip,
 } from "@components";
 
@@ -13,6 +14,7 @@ const MainContainer = () => {
       <ResultDetailsStrip />
       <OptionsContainer />
       <BuilderContainer />
+      <RelatedDealsSection />
     </div>
   );
 };

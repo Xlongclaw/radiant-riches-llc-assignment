@@ -4,10 +4,13 @@ import {
   Button,
   ImageContainer,
   MainHighLight,
+  PriceContainer,
   RatingContainer,
+  TagWrapper,
 } from "@components";
 import styles from "./BuilderWrapper.module.scss";
 import { BuilderDataType } from "@types";
+import Image from "next/image";
 
 const BuilderWrapper = ({
   type,
@@ -17,6 +20,7 @@ const BuilderWrapper = ({
   data: BuilderDataType;
 }) => {
   if (type == "normal")
+    // NORMAL BUILDER WRAPPER
     return (
       <div className={styles.wrapper}>
         <ImageContainer image={data.image} imageTag={data.imageTag!} />
@@ -38,7 +42,21 @@ const BuilderWrapper = ({
         <div className={styles.sequenceIndicator}>{data.sequence}</div>
       </div>
     );
-  return <div className={styles.wrapperCompact}></div>;
+  // COMPACT BUILDER WRAPPER
+  return (
+    <div className={styles.wrapperCompact}>
+      <Image className={styles.image} src={data.image} alt="" />
+      <div className={styles.tagContainer}>
+        {data.tags?.map((tag, i) => (
+          <TagWrapper key={`TAG_${i}`} title={tag} />
+        ))}
+      </div>
+      <h3>{data.imageTag}</h3>
+      <h4>{data.name}</h4>
+      <PriceContainer />
+      <Button title="View Deal" />
+    </div>
+  );
 };
 
 export default BuilderWrapper;

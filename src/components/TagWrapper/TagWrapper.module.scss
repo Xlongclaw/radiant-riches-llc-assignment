@@ -1,0 +1,9 @@
+@use "@sass/colors";
+
+.tag {
+  background-color: colors.$gray-1;
+  color: colors.$blue;
+  font-size: 14px;
+  padding: 5px 20px 5px 20px;
+  border-radius: 7px;
+}

@@ -14,6 +14,10 @@ import Button from "./Button/Button";
 import BuilderDescription from "./BuilderDescription/BuilderDescription";
 import MainHighLight from "./MainHighlight/MainHighLight";
 import ImageContainer from "./ImageContainer/ImageContainer";
+import RelatedDealsSection from "./RelatedDealsSection/RelatedDealsSection";
+import RelatedDealsContainer from "./RelatedDealsContainer/RelatedDealsContainer";
+import PriceContainer from "./PriceContainer/PriceContainer";
+import TagWrapper from "./TagWrapper/TagWrapper";
 
 export {
   NavigationBar,
@@ -32,4 +36,8 @@ export {
   BuilderDescription,
   MainHighLight,
   ImageContainer,
+  RelatedDealsSection,
+  RelatedDealsContainer,
+  PriceContainer,
+  TagWrapper,
 };
