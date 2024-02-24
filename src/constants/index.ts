@@ -3,6 +3,7 @@ import DETAILS_DATA from "./DETAILS_DATA";
 import OPTIONS from "./OPTIONS";
 import BUILDERS_DATA from "./BUILDERS_DATA";
 import RELATED_DEALS from "./RELATED_DEALS";
+import FOOTER_LINKS from "./FOOTER_LINKS";
 
 export {
   NAVIGATION_LINKS,
@@ -10,4 +11,5 @@ export {
   OPTIONS,
   BUILDERS_DATA,
   RELATED_DEALS,
+  FOOTER_LINKS,
 };

@@ -1,0 +1,15 @@
+@use "@sass/colors";
+.footer {
+  background-color: colors.$ascent-color;
+  padding: 100px 323px 100px 323px;
+  display: flex;
+  gap: 300px;
+}
+.countryMenu {
+  display: flex;
+  gap: 10px;
+  color: colors.$white;
+  font-size: 16px;
+  font-weight: 400;
+  align-items: center;
+}

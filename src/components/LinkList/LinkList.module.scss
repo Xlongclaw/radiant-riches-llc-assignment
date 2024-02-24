@@ -1,0 +1,19 @@
+@use "@sass/colors";
+
+.list {
+  color: colors.$white;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  h2 {
+    font-weight: 400;
+    font-size: 16px;
+    margin: 0;
+  }
+  h3 {
+    font-weight: 200;
+    font-size: 13px;
+    opacity: 0.9;
+    margin: 0;
+  }
+}

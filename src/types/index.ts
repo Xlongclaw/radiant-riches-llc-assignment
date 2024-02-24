@@ -15,5 +15,9 @@ type BuilderDataType = {
   bestChoise?: boolean;
   discount?: number;
 };
+type LinkListItemType = {
+  title: string;
+  links: Array<{ title: string; link: string }>;
+};
 
-export type { detailType, BuilderDataType };
+export type { detailType, BuilderDataType, LinkListItemType };

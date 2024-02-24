@@ -1,5 +1,5 @@
 import styles from "@/app/styles.module.scss";
-import { MainContainer, NavigationBar } from "@components";
+import { Footer, MainContainer, NavigationBar } from "@components";
 import React from "react";
 
 const page = () => {
@@ -7,6 +7,7 @@ const page = () => {
     <div className={styles.app}>
       <NavigationBar />
       <MainContainer />
+      <Footer />
     </div>
   );
 };

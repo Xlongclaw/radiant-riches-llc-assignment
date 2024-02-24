@@ -20,6 +20,8 @@ import PriceContainer from "./PriceContainer/PriceContainer";
 import TagWrapper from "./TagWrapper/TagWrapper";
 import SectionHeading from "./SectionHeading/SectionHeading";
 import SignupBox from "./SignupBox/SignupBox";
+import Footer from "./Footer/Footer";
+import LinkList from "./LinkList/LinkList";
 
 export {
   NavigationBar,
@@ -44,4 +46,6 @@ export {
   TagWrapper,
   SectionHeading,
   SignupBox,
+  Footer,
+  LinkList,
 };
