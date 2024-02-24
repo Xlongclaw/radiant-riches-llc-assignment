@@ -1,10 +1,11 @@
 import RelatedDealsContainer from "../RelatedDealsContainer/RelatedDealsContainer";
+import { SectionHeading } from "@components";
 import styles from "./RelatedDeals.module.scss";
 
 const RelatedDealsSection = () => {
   return (
     <div className={styles.section}>
-      <h2 className={styles.heading}>Related deals you might like for</h2>
+      <SectionHeading title="Related deals you might like for" />
       <RelatedDealsContainer />
     </div>
   );

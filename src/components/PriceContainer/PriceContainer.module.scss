@@ -1,3 +1,5 @@
+@use "@sass/colors";
+
 .container {
   display: flex;
   align-items: center;
@@ -6,10 +8,14 @@
   h2 {
     margin: 0;
     font-size: 20px;
-    font-weight: 400;
+    // font-weight: 400;
   }
 }
 
-.text-wrap {
+.textWrap1 {
   font-weight: 400;
+}
+.textWrap2 {
+  font-weight: 700;
+  color: colors.$red;
 }

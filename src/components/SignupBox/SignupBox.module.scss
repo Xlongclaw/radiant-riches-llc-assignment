@@ -1,0 +1,27 @@
+@use "@sass/colors";
+.box {
+  display: flex;
+  margin-top: 20px;
+  input {
+    margin-left: 100px;
+    width: 400px;
+    height: 60px;
+    background-color: colors.$white;
+    border-top-left-radius: 16px;
+    border-bottom-left-radius: 16px;
+    color: colors.$font-color-2;
+    padding: 0 30px;
+    border: none;
+    font-size: medium;
+    border: 1px solid colors.$gray-1;
+  }
+  button {
+    border: none;
+    background-color: colors.$blue;
+    color: colors.$white;
+    padding: 0 30px;
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+    text-wrap: nowrap;
+  }
+}

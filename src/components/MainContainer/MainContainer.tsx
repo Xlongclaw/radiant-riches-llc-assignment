@@ -1,3 +1,4 @@
+import SignupStrip from "../SignupStrip/SignupStrip";
 import styles from "./ManiContainer.module.scss";
 import {
   BuilderContainer,
@@ -15,6 +16,7 @@ const MainContainer = () => {
       <OptionsContainer />
       <BuilderContainer />
       <RelatedDealsSection />
+      <SignupStrip />
     </div>
   );
 };

@@ -18,6 +18,8 @@ import RelatedDealsSection from "./RelatedDealsSection/RelatedDealsSection";
 import RelatedDealsContainer from "./RelatedDealsContainer/RelatedDealsContainer";
 import PriceContainer from "./PriceContainer/PriceContainer";
 import TagWrapper from "./TagWrapper/TagWrapper";
+import SectionHeading from "./SectionHeading/SectionHeading";
+import SignupBox from "./SignupBox/SignupBox";
 
 export {
   NavigationBar,
@@ -40,4 +42,6 @@ export {
   RelatedDealsContainer,
   PriceContainer,
   TagWrapper,
+  SectionHeading,
+  SignupBox,
 };

@@ -13,6 +13,7 @@ type BuilderDataType = {
   sequence?: number;
   bestValue?: boolean;
   bestChoise?: boolean;
+  discount?: number;
 };
 
 export type { detailType, BuilderDataType };

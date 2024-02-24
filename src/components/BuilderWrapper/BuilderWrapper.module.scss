@@ -7,7 +7,7 @@
   background-color: colors.$white;
   display: flex;
   border-radius: 15px;
-  border: 1px solid colors.$white-fade-1;
+  border: 1px solid colors.$gray-1;
   position: relative;
 }
 
@@ -41,7 +41,7 @@
 .wrapperCompact {
   display: flex;
   flex-direction: column;
-  border: 1px solid colors.$white-fade-1;
+  border: 1px solid colors.$gray-1;
   background-color: colors.$white;
   padding: 20px;
   border-radius: 15px;

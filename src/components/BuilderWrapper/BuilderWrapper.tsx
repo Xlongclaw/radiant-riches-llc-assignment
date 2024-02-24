@@ -53,7 +53,7 @@ const BuilderWrapper = ({
       </div>
       <h3>{data.imageTag}</h3>
       <h4>{data.name}</h4>
-      <PriceContainer />
+      <PriceContainer price={data.price!} discount={data.discount!} />
       <Button title="View Deal" />
     </div>
   );

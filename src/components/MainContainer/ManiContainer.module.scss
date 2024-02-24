@@ -1,7 +1,8 @@
 @use "@sass/colors";
 
 .container {
-  margin: 20px 11px 20px 11px;
-  padding: 0 273px 0 273px;
+  margin: 20px 11px;
+  // padding: 0 273px;
+  padding: 0 313px;
   background-color: colors.$bg-light;
 }
