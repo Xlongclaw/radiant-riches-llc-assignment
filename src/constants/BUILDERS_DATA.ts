@@ -1,122 +1,83 @@
 const BUILDERS_DATA = [
   {
-    image: "",
-    imageTag: "",
-    name: "",
-    description: "",
-    discount: 0,
+    image: require("../assets/images/monitor.png"),
+    imageTag: "Builder",
+    name: "WixPro 72-Inch Responsive Website Builder",
+    description:
+      "Comprehensive Digital Platform Creation Tool, Streamlined Design Interface for Professional Websites and Online Stores (Black/Blue)",
     mainHighlight: [
       {
-        title: "",
-        description: "",
+        title: "What You get",
+        description:
+          "Receive the WixPro website builder suite, access to premium design templates, an extensive library of widgets and apps, and detailed step-by-step guides.",
       },
     ],
-    mainHighlightList: [
-      {
-        rating: 0,
-        title: "",
-      },
-      {
-        rating: 0,
-        title: "",
-      },
-    ],
-    whylove: ["", "", ""],
-    rating: 0,
-    tags: [""],
-    price: 0,
-    sequence: 0,
-    bestValue: false,
-    bestChoice: false,
+    rating: 9.8,
+    tags: ["Exceptional"],
+    sequence: 1,
+    bestChoice: true,
   },
   {
-    image: "",
-    imageTag: "",
-    name: "",
-    description: "",
-    discount: 0,
+    image: require("../assets/images/monitor.png"),
+    imageTag: "Builder2",
+    name: "SiteCraft 68-Inch Ultimate Web Design Studio",
+    description:
+      "Advanced Site Creation Toolkit, Intuitive Drag-and-Drop Editor for Dynamic Websites and E-commerce Platforms (Green/White)",
     mainHighlight: [
       {
-        title: "",
-        description: "",
+        title: "What You Get",
+        description:
+          "Gain access to the SiteCraft design studio, featuring a robust selection of design elements, SEO optimization tools, and e-commerce integrations.",
       },
     ],
-    mainHighlightList: [
-      {
-        rating: 0,
-        title: "",
-      },
-      {
-        rating: 0,
-        title: "",
-      },
-    ],
-    whylove: ["", "", ""],
-    rating: 0,
-    tags: [""],
-    price: 0,
-    sequence: 0,
-    bestValue: false,
-    bestChoice: false,
+    rating: 9.5,
+    tags: ["Excellent"],
+    sequence: 2,
   },
   {
-    image: "",
-    imageTag: "",
-    name: "",
-    description: "",
-    discount: 0,
+    image: require("../assets/images/monitor.png"),
+    imageTag: "Builder 1",
+    name: "WixPro 72-Inch Responsive Website Builder",
+    description:
+      "Comprehensive Digital Platform Creation Tool, Streamlined Design Interface for Professional Websites and Online Stores (Black/Blue)",
+    // discount: 0,
     mainHighlight: [
       {
-        title: "",
-        description: "",
+        title: "What You Get",
+        description:
+          "Receive the WixPro website builder suite, access to premium design templates, an extensive library of widgets and apps, and detailed step-by-step guides.",
       },
     ],
-    mainHighlightList: [
-      {
-        rating: 0,
-        title: "",
-      },
-      {
-        rating: 0,
-        title: "",
-      },
-    ],
-    whylove: ["", "", ""],
-    rating: 0,
-    tags: [""],
-    price: 0,
-    sequence: 0,
-    bestValue: false,
-    bestChoice: false,
+    rating: 9.3,
+    tags: ["Exceptional"],
+    sequence: 3,
   },
   {
-    image: "",
+    image: require("../assets/images/monitor.png"),
     imageTag: "",
-    name: "",
-    description: "",
-    discount: 0,
-    mainHighlight: [
-      {
-        title: "",
-        description: "",
-      },
-    ],
+    name: "CDK Resposive Builder",
+    description:
+      "An extensive library of widgets and apps, and detailed step-by-step guides",
+
     mainHighlightList: [
       {
-        rating: 0,
-        title: "",
+        rating: 9.9,
+        title: "Build Responsive",
       },
       {
-        rating: 0,
-        title: "",
+        rating: 8.9,
+        title: "Cool",
+      },
+      {
+        rating: 8.9,
+        title: "Docs",
       },
     ],
-    whylove: ["", "", ""],
-    rating: 0,
-    tags: [""],
-    price: 0,
-    sequence: 0,
-    bestValue: false,
-    bestChoice: false,
+    whylove: ["Documentation", "Eazy Use", "Out of Box"],
+    rating: 9.1,
+    tags: ["Very Good"],
+    sequence: 4,
   },
 ];
+
+export default BUILDERS_DATA;

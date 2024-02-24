@@ -1,14 +1,15 @@
 import styles from "./BuilderDescription.module.scss";
-const BuilderDescription = () => {
+const BuilderDescription = ({
+  title,
+  description,
+}: {
+  title: string;
+  description: string;
+}) => {
   return (
     <div className={styles.container}>
-      <span className={styles.titleText}>
-        WixPro 72-Inch Responsive Website Builder-
-      </span>
-      <span className={styles.description}>
-        Comprehensive Digital Platform Creation Tool, Streamlined Design
-        Interface for Professional Websites and Online Stores (Black/Blue)
-      </span>
+      <span className={styles.titleText}>{title} - </span>
+      <span className={styles.description}>{description}</span>
     </div>
   );
 };

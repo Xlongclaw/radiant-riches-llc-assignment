@@ -8,6 +8,7 @@
   display: flex;
   border-radius: 15px;
   border: 1px solid colors.$white-fade-1;
+  position: relative;
 }
 
 .textContainer {
@@ -21,4 +22,18 @@
   justify-content: space-between;
   padding: 0 15px 15px 0;
   align-items: center;
+}
+
+.sequenceIndicator {
+  background-color: colors.$white;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1000px;
+  position: absolute;
+  top: 60px;
+  left: -25px;
+  border: 1px solid colors.$white-fade-1;
 }
