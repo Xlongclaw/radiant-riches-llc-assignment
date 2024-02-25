@@ -1,9 +1,41 @@
 @use "@sass/colors";
+
+@use "@sass/media-queries" as *;
+
 .footer {
   background-color: colors.$ascent-color;
-  padding: 100px 323px 100px 323px;
   display: flex;
-  gap: 300px;
+  text-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  @include xl {
+    gap: 300px;
+    padding: 100px 323px 100px 323px;
+  }
+  @include lg {
+    gap: 200px;
+    padding: 100px 323px 100px 323px;
+  }
+  @include md {
+    gap: 150px;
+    padding: 100px 323px 100px 323px;
+  }
+  @include sm {
+    gap: 150px;
+    padding: 100px 323px 100px 323px;
+  }
+  @include xs {
+    flex-direction: column;
+    gap: 100px;
+    padding: 100px 0;
+    margin-top: 50px;
+  }
+  @include xxs {
+    flex-direction: column;
+    gap: 100px;
+    padding: 100px 0;
+    margin-top: 50px;
+  }
 }
 .countryMenu {
   display: flex;

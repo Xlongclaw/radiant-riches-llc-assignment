@@ -1,5 +1,10 @@
+@use "@sass/media-queries" as *;
+
 .strip {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  @include lt-md {
+    flex-direction: column;
+  }
 }

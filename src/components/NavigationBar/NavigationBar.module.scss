@@ -1,4 +1,5 @@
 @use "@sass/colors";
+@use "@sass/media-queries" as *;
 
 .nav {
   background-color: colors.$ascent-color;
@@ -7,5 +8,30 @@
   align-items: center;
   justify-content: space-between;
   // gap: 81px;
-  padding: 0 323px;
+  @include xl {
+    padding: 0 18vw;
+  }
+  @include lg {
+    padding: 0 10vw;
+  }
+  @include md {
+    padding: 0 3vw;
+  }
+  @include sm {
+    padding: 0 20vw;
+  }
+  @include xs {
+    padding: 0 10vw;
+  }
+  @include xxs {
+    padding: 0 9vw;
+  }
+}
+
+.searchIcon {
+  display: none;
+  @include lt-md {
+    display: flex;
+    width: 24px;
+  }
 }

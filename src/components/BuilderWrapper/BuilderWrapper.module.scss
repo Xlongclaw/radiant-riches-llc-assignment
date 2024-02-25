@@ -1,3 +1,4 @@
+@use "@sass/media-queries" as *;
 @use "@sass/colors";
 
 .wrapperCompact {
@@ -9,6 +10,9 @@
   border-radius: 15px;
   border: 1px solid colors.$gray-1;
   position: relative;
+  @include lt-md {
+    flex-direction: column;
+  }
 }
 
 .textContainer {
@@ -47,6 +51,15 @@
   border-radius: 15px;
   align-items: center;
   width: 33.3%;
+  @include sm {
+    width: 50%;
+  }
+  @include xs {
+    width: 80%;
+  }
+  @include xxs {
+    width: 100%;
+  }
   h3 {
     width: 100%;
     color: colors.$font-color-2;

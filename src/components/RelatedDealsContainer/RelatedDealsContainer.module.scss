@@ -1,5 +1,12 @@
+@use "@sass/media-queries" as *;
+
 .container {
   display: flex;
   width: 100%;
   gap: 25px;
+  overflow: scroll;
+}
+
+.container::-webkit-scrollbar {
+  display: none;
 }

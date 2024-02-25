@@ -5,6 +5,7 @@ import styles from "./NavigationLinksContainer.module.scss";
 const NavigationLinksContainer = () => {
   return (
     <div className={styles.navLinksContainer}>
+      <img className={styles.menu} src="images/menu-white.png" alt="" />
       {NAVIGATION_LINKS.map((navLink, i) => (
         <Link
           className={styles.navLink}

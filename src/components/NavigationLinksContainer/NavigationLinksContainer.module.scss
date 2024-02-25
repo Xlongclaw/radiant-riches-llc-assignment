@@ -1,4 +1,5 @@
 @use "@sass/colors";
+@use "@sass/media-queries" as *;
 
 .navLinksContainer {
   display: flex;
@@ -10,4 +11,15 @@
   font-size: 14px;
   font-weight: 400;
   color: colors.$white-fade-1;
+  @include lt-md {
+    display: none;
+  }
+}
+.menu {
+  display: none;
+  @include lt-md {
+    display: flex;
+    width: 24px;
+    height: 24px;
+  }
 }

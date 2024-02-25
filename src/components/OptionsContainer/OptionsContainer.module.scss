@@ -1,9 +1,15 @@
 @use "@sass/colors";
+@use "@sass/media-queries" as *;
+
 .container {
   width: 100%;
   padding: 13px 0 13px 0;
   display: flex;
   gap: 30px;
+  @include lt-md {
+    flex-wrap: wrap;
+    gap: 0px;
+  }
 }
 .option {
   width: 105px;

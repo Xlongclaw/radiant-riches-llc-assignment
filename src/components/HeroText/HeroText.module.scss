@@ -1,3 +1,8 @@
+@use "@sass/media-queries" as *;
+
 .heroText {
   font-size: 48px;
+  @include xxs {
+    font-size: 36px;
+  }
 }
