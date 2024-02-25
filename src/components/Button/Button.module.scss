@@ -2,12 +2,14 @@
 @use "@sass/media-queries" as *;
 
 .button {
-  padding: 15px 120px;
+  // padding: 15px 120px;
+  width: 100%;
   background-color: colors.$blue;
   color: colors.$white;
   border-radius: 10px;
   border: none;
   text-wrap: nowrap;
+  padding: 15px 0;
   @include xxs {
     padding: 15px 100px;
   }

@@ -1,4 +1,5 @@
 @use "@sass/colors";
+@use "@sass/media-queries" as *;
 
 .container {
   display: flex;
@@ -6,6 +7,9 @@
   justify-content: center;
   align-items: center;
   margin: 45px;
+  @include lt-sm {
+    margin: 45px 0 10px 0;
+  }
 }
 .tag {
   font-weight: 400;

@@ -1,4 +1,5 @@
 @use "@sass/colors";
+@use "@sass/media-queries" as *;
 
 .container {
   background-color: colors.$light-blue;
@@ -9,6 +10,11 @@
   align-items: center;
   border-bottom-left-radius: 14px;
   border-bottom-right-radius: 14px;
+  @include lt-sm {
+    border-radius: 14px;
+
+    width: 90%;
+  }
 }
 .rating {
   font-size: 2rem;

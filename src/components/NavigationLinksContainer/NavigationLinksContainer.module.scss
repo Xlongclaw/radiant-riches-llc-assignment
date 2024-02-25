@@ -11,13 +11,13 @@
   font-size: 14px;
   font-weight: 400;
   color: colors.$white-fade-1;
-  @include lt-md {
+  @include lt-sm {
     display: none;
   }
 }
 .menu {
   display: none;
-  @include lt-md {
+  @include lt-sm {
     display: flex;
     width: 24px;
     height: 24px;

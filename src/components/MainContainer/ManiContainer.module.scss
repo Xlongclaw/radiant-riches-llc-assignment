@@ -1,17 +1,9 @@
 @use "@sass/colors";
 @use "@sass/media-queries" as *;
 
-// $xs: 300px;
-// $sm: 400px;
-// $md: 1000px;
-// $lg: 1300px;
-// $xl: 1500px;
-
 .container {
   margin: 20px 11px;
-  // padding: 0 273px;
-  // padding: 0 313px;
-  // padding: 0 18vw;
+
   background-color: colors.$bg-light;
   @include xl {
     padding: 0 18vw;
@@ -23,10 +15,10 @@
     padding: 0 3vw;
   }
   @include sm {
-    padding: 0 16vw;
+    padding: 0 3vw;
   }
   @include xs {
-    padding: 0 10vw;
+    padding: 0 15vw;
   }
   @include xxs {
     padding: 0 7vw;

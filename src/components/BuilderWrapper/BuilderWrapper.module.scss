@@ -10,14 +10,21 @@
   border-radius: 15px;
   border: 1px solid colors.$gray-1;
   position: relative;
-  @include lt-md {
+  @include lt-sm {
     flex-direction: column;
+    align-items: center;
   }
 }
 
 .textContainer {
   margin: 40px;
   flex: 1;
+  @include lt-md {
+    margin: 40px 15px;
+  }
+  @include lt-sm {
+    margin: 0 30px;
+  }
 }
 
 .rightContainer {
@@ -25,7 +32,16 @@
   flex-direction: column;
   justify-content: space-between;
   padding: 0 15px 15px 0;
+  width: 250px;
   align-items: center;
+  @include lt-md {
+    width: 20vw;
+  }
+  @include lt-sm {
+    width: 90%;
+    padding-right: 0;
+    gap: 10px;
+  }
 }
 
 .sequenceIndicator {

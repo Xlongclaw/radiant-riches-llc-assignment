@@ -1,4 +1,5 @@
 @use "@sass/colors";
+@use "@sass/media-queries" as *;
 
 .highlight {
 }
@@ -6,6 +7,17 @@
   font-weight: 700;
   color: colors.$ascent-color;
   margin: 0;
+  display: flex;
+  justify-content: space-between;
+  @include lt-sm {
+    margin-bottom: 15px;
+  }
+  img {
+    display: none;
+    @include lt-md {
+      display: block;
+    }
+  }
 }
 .description {
   font-weight: 400;
@@ -25,6 +37,9 @@
   &:hover {
     text-decoration: underline;
     cursor: pointer;
+  }
+  @include lt-sm {
+    margin-bottom: 20px;
   }
 }
 

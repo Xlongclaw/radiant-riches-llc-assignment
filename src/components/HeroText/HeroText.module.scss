@@ -2,6 +2,9 @@
 
 .heroText {
   font-size: 48px;
+  @include lt-md {
+    margin: 20px 0;
+  }
   @include xxs {
     font-size: 36px;
   }
